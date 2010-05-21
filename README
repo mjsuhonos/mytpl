@@ -1,0 +1,33 @@
+MyTPL - Location-aware Mobile Search using PHP-YAZ and IUI
+
+About
+-----
+MyTPL is a proof-of-concept web application that uses PHP-YAZ to search
+a Z39.50 catalogue interface, translates the responses using XML/XSLT,
+and presents the results in a mobile UI using the IUI toolkit.  It uses
+the HTML Geolocation Javascript API to provide nearest-copy functionality.
+
+A demonstration instance is maintained (without guarantee) at http://mytpl.ca
+but the code is available to any developer looking to integrate these features
+with their own library.
+
+License
+-------
+MyTPL is licensed under the GNU General Public License v3. See the file
+LICENSE for the complete terms of this license.
+
+Anyone is welcome to modify and redistribute MyTPL in entirety or parts
+according to the terms of this license. The author also welcomes patches for
+improvements or bug fixes to the software.
+
+Installing
+----------
+See the file INSTALL for complete installation instructions.
+
+Contact/Support
+---------------
+GitHub is the recommended method of contacting the author or providing code
+submissions / improvements.
+
+GitHub: <http://github.com/mjsuhonos/mytpl>
+Email: <mj@robotninja.com>
