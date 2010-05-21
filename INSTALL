@@ -1,0 +1,35 @@
+MyTPL - Location-aware Mobile Search using PHP-YAZ and IUI
+
+System Requirements
+-------------------
+Minimum server requirements:
+
+* PHP >= 5.x with XSL and DOM extensions installed
+* IndexData's PHPYAZ extension (requires YAZ) <http://www.indexdata.com/phpyaz>
+* Apache or Microsoft IIS
+* Operating system: Any OS that supports the above software
+
+Installation
+------------
+
+1. Extract the MyTPL archive to the desired location in your web
+documents directory.
+
+2. Ensure that the covers/ and records/ directories are writeable by
+your web server.
+
+3. Edit $connect_string in search.php to point to your library's
+Z39.50 interface; eg. hostname:port/database
+
+4. To enable correct branch/item location, some modification will be
+required to codes.php (an array of lat/long locations for branches)
+and functions.php around lines 50-70.  These will depend on what holdings
+information is available (if any) in the MARCXML response provided by 
+the ILS' Z39.50 implementation.
+
+5. You may wish to modify image.php to provide necessary API keys for
+retrieving cover art and music descriptions.
+
+6. You'll probably want to modify img/mytpl-alpha.png for your project.
+
+7. Enjoy!

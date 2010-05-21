@@ -1,0 +1,120 @@
+img.thumb {
+    top: 5px;
+    left: 5px;
+	bottom: 5px;
+    width: 60px;
+    height: 70px;
+    border: 1px solid #FFFFFF;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+img.detail {
+    max-width: 100px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+body > ul > li.result a {
+	margin-top: -10px;
+	line-height: 1.1em;
+	font-size: 0.9em;
+	padding-left: 70px;
+	min-height: 70px;
+}
+
+body > ul > li.result > a > div {
+	font-size: 0.8em;
+	line-height: 1.1em;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+/* detail view decoration */
+fieldset.detail {
+	text-align: left;
+	padding: 10px 10px 0 10px;
+}
+
+fieldset > p {
+	margin: 0px;
+	line-height: 1.5em;
+}
+
+fieldset > p.title, fieldset > p.edition {
+	font-weight: bold;
+	line-height: 1.4em;
+	font-size: 1.05em;
+}
+
+/* holdings information */
+li.branch {
+	/* this doesn't sem to work here */
+	text-align: left;
+}
+
+p.branch {
+	margin: 10px 10px 0px 10px;
+}
+
+img.status {
+	max-width: 35px;
+	max-height: 35px;
+}
+
+div.row {
+	text-align: left;
+}
+
+div.spinner {
+	visibility: hidden;
+	background: black url(../iui/t/default/loading.gif) no-repeat center center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
+}
+
+form.progress div.spinner {
+	visibility: visible;  // need better styling here, placeholder
+}
+
+/* copied from new TPL site */
+.hold-button, .hold-button:visited, .reference-only { 
+	padding: 3px 4pt; 
+	border-width: 1px;
+	border-style: solid;
+	margin-right: 5px;
+}
+
+.hold-button, .hold-button:visited { 
+	background: #42851C; 
+	border-color: #adca9d #2b5713 #2b5713 #adca9d;	
+	color: #fff;
+	background-image:url(/img/button-background-green.jpg);
+	background-position:center center;
+	background-repeat:repeat-x;
+}
+
+.hold-button { 
+	text-decoration:none;
+	color: #fff;
+}
+
+.hold-button:active { 
+	border-color: #2b5713 #adca9d #adca9d #2b5713; 
+}
+
+/* TEMPORARY FOR XML DUMP */
+pre {
+white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
